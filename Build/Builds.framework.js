@@ -1281,10 +1281,10 @@ function dbg(text) {
 // === Body ===
 
 var ASM_CONSTS = {
-  4919972: () => { Module['emscripten_get_now_backup'] = performance.now; },  
- 4920027: ($0) => { performance.now = function() { return $0; }; },  
- 4920075: ($0) => { performance.now = function() { return $0; }; },  
- 4920123: () => { performance.now = Module['emscripten_get_now_backup']; }
+  4921588: () => { Module['emscripten_get_now_backup'] = performance.now; },  
+ 4921643: ($0) => { performance.now = function() { return $0; }; },  
+ 4921691: ($0) => { performance.now = function() { return $0; }; },  
+ 4921739: () => { performance.now = Module['emscripten_get_now_backup']; }
 };
 function zappar_issue_js_plugin_render_event() { window.zappar_native_callbacks.process_gl(); }
 function zappar_issue_js_plugin_upload_gl_event() { window.zappar_native_callbacks.upload_gl(); }
@@ -19420,8 +19420,8 @@ var dynCall_iiiiiiffiiiiiiiiiffffiii = Module["dynCall_iiiiiiffiiiiiiiiiffffiii"
 var dynCall_viiffiiiii = Module["dynCall_viiffiiiii"] = createExportWrapper("dynCall_viiffiiiii");
 /** @type {function(...*):?} */
 var dynCall_d = Module["dynCall_d"] = createExportWrapper("dynCall_d");
-var ___start_em_js = Module['___start_em_js'] = 4919392;
-var ___stop_em_js = Module['___stop_em_js'] = 4919972;
+var ___start_em_js = Module['___start_em_js'] = 4921008;
+var ___stop_em_js = Module['___stop_em_js'] = 4921588;
 function invoke_ii(index,a1) {
   var sp = stackSave();
   try {
